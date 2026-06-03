@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="VendorID", ATTR{idProduct}=="006e", ATTR{power/control}="on", ATTR{power/autosuspend}="-1"
